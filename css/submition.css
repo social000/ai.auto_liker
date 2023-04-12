@@ -1,0 +1,111 @@
+body{
+    width:100%;
+    max-width:800px;
+    margin:0 auto;
+    padding:0;
+    background:black;
+    color:white;
+    font-family:sans-serif;
+}
+h1{
+    background:grey;
+    padding:20px;
+}
+
+.post{
+    width:100%;
+    max-width:300px;
+    margin:0 auto;
+    padding:10px;
+    cursor:pointer;
+    border-radius:10px;
+    box-shadow:0px 0px 10px #222;
+    background:white;color:black;
+}.post #note{
+background:#428BCA;
+color:white;
+border:0px;
+margin-top:20px;
+height:25px;
+}.post #n_p{
+    width:100%;
+    max-width:290px;
+    border-bottom:2px solid #EEEEEE;
+    padding-bottom:20px;
+    color:#384452;
+    font-weight:bold;
+    font-size:13px;
+}.post #n_p b{
+    color:red;
+    font-weight:bold;
+    text-decoration:underline;
+}.post form{
+    width:100%;
+    max-width:290px;
+    margin:0 auto;
+}.post form #id_link{
+    width:85%;
+    border:1px solid #CCCCCC;
+    height:30px;
+    border-radius:5px;
+    margin-bottom:10px;
+    background:none;
+
+}.post form #check_box{
+    width:100%;
+    max-width:250px;
+    margin:0 auto;
+}.post form #check_box label{
+    font-size:13px;
+}.post form button{
+    background:#D9534F;
+    color:white;
+    border-radius:2px;
+    width:100px;
+    height:30px;
+    border:0px;
+    margin-top:20px;
+    margin-bottom:10px;
+}.post #d{
+    font-size:12px;
+    font-weight:bold;
+}.post #d b{
+    color:red;
+}.post #a{
+    width:100%;
+    max-width:250px;
+    margin:0 auto;
+    font-size:12px;
+    color:#384452;
+    font-weight:lighter;
+    padding-top:20px;
+    border-top:2px solid #EEEEEE;
+}
+
+.w{
+    width:100%;
+    max-width:290px;
+    margin:0 auto;
+}.w b{
+    margin-top:20px;
+    text-align:center;
+    color:red;
+    text-decoration:underline;
+}.w ol{
+    color:white;
+}.w ol li{
+    margin-bottom:px;
+    border-bottom:01px solid white;
+}.w ol li p{
+    width:100%;
+    max-width:250px;
+    margin-top:10px;
+   font-size:12px;
+   font-weight:300;
+}.w ol li p span{
+    background:white;
+    color:red;
+    padding:2px;
+    border-radius:5px;
+    font-size:12px;
+}
